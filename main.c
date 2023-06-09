@@ -38,6 +38,7 @@ void print_Bytes(void* x,int size){
 int main()
 {
     int x = 512+12;
+    int y=5;
     int* ptr = &x;
     print_Bytes(ptr,4);
     return 0;
